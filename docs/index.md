@@ -1,10 +1,9 @@
 ---
-# https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
 hero:
-  name: "My Awesome Project"
-  text: "A VitePress Site"
+  name: "Java-AI"
+  text: "Java ♾️ AI"
   tagline: My great project tagline
   actions:
     - theme: brand
@@ -13,13 +12,24 @@ hero:
     - theme: alt
       text: API Examples
       link: /api-examples
+  image:
+    src: /logo.png
+    alt: JavaAI
 
 features:
-  - title: Feature A
+  - icon: 📝
+    title: 特性一
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
+  - icon: 🚀
+    title: Feature B
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
+  - icon: 🐛
+    title: Feature C
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - icon: 🚀
+    title: Fully Customizable
+    details: No core utilities, all functionalities are provided via presets.
+    link: /guide/
+    linkText: Getting Started
 ---
 
